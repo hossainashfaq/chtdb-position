@@ -1,0 +1,21 @@
+div {
+    /* border: 2px solid aqua; */
+    width: 300px;
+}
+
+#boy {
+    position: relative;
+    top: 100px;
+    z-index: 2;
+}
+
+#ring {
+    position: relative;
+    z-index: 1;
+}
+
+#water {
+    position: relative;
+    bottom: 170px;
+    z-index: 0;
+}
