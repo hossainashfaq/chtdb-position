@@ -19,3 +19,25 @@ div {
     bottom: 170px;
     z-index: 0;
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown:hover {
+    display: block;
+}
